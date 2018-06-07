@@ -5,9 +5,9 @@ The script currently pings google(better to use your DNS server IP) to determine
 
 If the DNS is working then it displays Green LED & DNS is UP, otherwise it displays Red LED and DNS is DOWN.
 
-The while loop is not the best way to do this. I will figure out the best method for intermittently checking hosts later.
+The while loop is not the best way to do this. I will figure out the best method for intermittently checking DNS hosts.
 
-Additional Thoughts/Ideas to add:
+Additional Thoughts/Ideas to possibly add:
 
 -Turn script into daemon so it runs in the background without intervention and needing shell
 
@@ -17,3 +17,4 @@ Additional Thoughts/Ideas to add:
 
 -Flash LED and then display hostname of device that has joined or disconnected from network.
 
+- Replace hostname with a display of current CPU and Memory load/use. Perhaps have LED's reflect high temp or load.
