@@ -17,12 +17,6 @@ def get_addr(ifname):
     except IOError:
         return 'Not Found!'
 
-#def ping(ip_addr):
-#       try:
-#               ping.verbose_ping('192.168.0.15'), count=3)
-#               upstate = 'DNS is Up @NeroPi'
-#       except socket.error, e:
-#               upstate = 'DNS FAILURE', e
 
 wlan0 = get_addr('wlan0')
 eth0 = get_addr('eth0')
