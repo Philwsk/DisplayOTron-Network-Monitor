@@ -10,11 +10,15 @@ The while loop is not the best way to do this. I will figure out the best method
 Additional Thoughts/Ideas to possibly add:
 
 -Turn script into daemon so it runs in the background without intervention and needing shell
+(for now I just achieve this in crontab with "@reboot python ~/DNSMON.py & ")
 
 -Use the graph led on right of display to indicate pinging is taking place.
 
 -Ping local DNS & then alternative DNS servers to check if the problem is my home DNS server or my internet connection.
+(Added, but probably needs testing!)
 
 -Flash LED and then display hostname of device that has joined or disconnected from network.
 
 - Replace hostname with a display of current CPU and Memory load/use. Perhaps have LED's reflect high temp or load.
+(Attempting to just show system temp for now, as the displayotron and the pi 3 B+ together run HOT)
+
