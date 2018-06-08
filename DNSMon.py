@@ -63,7 +63,8 @@ while True:
 
         lcd.set_cursor_position(0,0)
         lcd.write('{}'.format(host))
-
+		
+		eth0 = get_addr('eth0')
         lcd.set_cursor_position(0,1)
         if eth0 == 'Not Found!':
                 lcd.write('eth0 DOWN')
